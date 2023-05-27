@@ -1,6 +1,6 @@
 {
 	"name": "get-nepali-date",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Get today's nepali date.",
 	"main": "nepaliDate.js",
 	"scripts": {
@@ -14,9 +14,5 @@
 		"nepali date today",
 		"get nepali date"
 	],
-	"private": false,
-	"dependencies": {
-		"get-nepali-date": "^1.0.3",
-		"link": "^1.5.1"
-	}
+	"private": false
 }
