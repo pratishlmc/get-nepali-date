@@ -71,4 +71,4 @@ function getCurrentNepaliDate(query = "") {
 	return `Query doesn't match. Pass an argument to 'getCurrentNepaliDate()' function, such as "day": to get day, "month": to get month, "year": to get year & "dayofweek": to get day of the week. Or dont pass anyting to get the full Nepali date.`;
 }
 
-console.log(getCurrentNepaliDate("Fasdf"));
+module.exports = getCurrentNepaliDate

@@ -2,7 +2,7 @@
 	"name": "get-nepali-date",
 	"version": "1.0.3",
 	"description": "Get today's nepali date.",
-	"main": "nepaliDate.ts",
+	"main": "nepaliDate.js",
 	"scripts": {
 		"test": "echo \"No test script specified\" && exit 0"
 	},
@@ -14,5 +14,9 @@
 		"nepali date today",
 		"get nepali date"
 	],
-	"private": false
+	"private": false,
+	"dependencies": {
+		"get-nepali-date": "^1.0.3",
+		"link": "^1.5.1"
+	}
 }
